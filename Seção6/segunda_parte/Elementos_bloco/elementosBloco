@@ -1,0 +1,9 @@
+Inline
+	- os elementos tem largura definida pelo que esta dentro deles
+	- ficam posicionados um do lado do outro
+	-<a>,<spam>
+
+Block:
+	-elementos ocupam todo espaço da tela
+	- ficam posicionados um abaixo do outro
+	-<h1>,<p>

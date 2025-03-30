@@ -1,0 +1,33 @@
+.conteudo {
+	border: 1px solid red;
+	/*padding-top: 20px;
+	padding-right: 20px; 
+	padding-bottom: 50px;
+	padding-left: 30px;*/
+
+	padding: 20px 20px 20px 20px; /* ela segue aquela estrutura das bordas,
+									 que segue o caminho horario */
+
+	width: 150px;
+
+	/*margin-top: 20px;
+	margin-bottom: 20px;
+	margin-block: 20px;
+	margin-left: 20px;*/
+
+	margin: 20px 30px 40px 50px; /* sao as distancia entre os elementos 
+									da div de orientação*/
+
+	background: aliceblue;
+	font: verdana;
+}
+
+#noticia{
+	background: write;
+	padding: 20px;
+	border: 1px solid darkred;
+
+}
+h2{
+	margin: 0px;
+}

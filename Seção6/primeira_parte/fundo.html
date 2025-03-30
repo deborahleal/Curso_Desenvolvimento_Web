@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cor e imagem de fundo</title>
+
+	<style type="text/css">
+		/*.fundo {
+			background-color: #B10B8B;
+			font: 400 "courier new" monospace;
+			border-style: dashed;
+		}
+		.cabeçalhoPrincipal{
+
+		}*/
+
+		.fundo1{
+			background-image: url('imagens/dragao.png');
+			background-repeat: no-repeat;
+
+			background-attachment:fixed; 
+			 /*  fixed - a imagem fica fixa em um plano de fundo e scroll a imagem rola com o conteudo */
+
+
+			background-position: top center; /* o primeiro valor é os do eixo x, right center e left; o segundo valor no eixo y center, top e bottom */
+
+		}
+
+		.fundo{
+			background: gray url('imagens/dragao.png') no-repeat fixed top center;
+		}
+
+	</style>
+</head>
+<body>
+
+
+	<h1 class="fundo1"> <center>Texto aleátorio sobre tecnologia</center></h1>
+	<p class="fundo">A tecnologia tem transformado a maneira como interagimos com o mundo, desde pequenas tarefas cotidianas até avanços revolucionários na ciência e na comunicação. Com a inteligência artificial se tornando cada vez mais presente, processos que antes demandavam tempo e esforço agora são automatizados, permitindo que as pessoas foquem em atividades mais criativas e estratégicas. No entanto, esse avanço também levanta questões sobre ética, privacidade e o impacto no mercado de trabalho, tornando essencial um debate equilibrado entre inovação e responsabilidade.
+	</p>
+
+</body>
+</html>

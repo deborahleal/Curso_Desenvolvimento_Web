@@ -1,0 +1,39 @@
+body{
+	background: #d2d2c1 url('imagens/fundo.png');
+}
+
+.cabeçalhoLinks {
+	background: #c5c5b2;
+	font:  16px monaco "Times New Roman" monospace;
+	padding:15px; /*aplica um espaçamento interno*/
+}
+
+.corpoDescrição {
+	background: #e8e8d9;
+	padding:10px ;
+	width: 900px;
+}
+
+a{
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.centralizar{
+	font-weight: bold;
+	text-align: center;
+}
+
+#principal {
+	width: 900px;
+}
+
+h1{
+	color:#828271;
+	font-size: 1.2em;
+}
+
+.borda_imagens{
+	border: 10px solid #c3c3ae;
+}

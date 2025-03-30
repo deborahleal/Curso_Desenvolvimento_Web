@@ -1,0 +1,34 @@
+.conteudo{
+	background:plum ;
+	border: 2px solid deeppink;
+	width: 150px; /*largura*/
+	height: 150px; /*altura*/
+	color: deeppink;
+	font-weight: bold;
+	float: left;
+
+	
+	margin: 10px; /*separação de elementos distintos */
+
+
+}
+
+.conteudo1 {
+	background: red;
+	border: 1px solid deeppink;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	/*float: left;*/
+	color: deeppink;
+	font-weight: bold;
+
+}
+.clear{
+	clear: left;
+}
+
+#principal {
+	border: 2px solid red;
+	background: gray;
+}

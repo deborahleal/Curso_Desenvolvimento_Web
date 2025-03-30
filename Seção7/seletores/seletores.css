@@ -1,0 +1,80 @@
+/* ----------------SELETOR UNIVERSAL -------------------*/
+	/*Aplica-se em todos os elementos no documento  */
+	/*{
+		border: 1px solid red;
+	}
+
+/*----------------SELETOR DE TEXTO----------------*/
+	/*Seleciona elementos pelo tipo, exemplo:<h1><h2><p>  */
+	h1{
+		background: green;
+		text-align: center;
+		width: 900px;
+	}
+	body{
+		width: 900px;
+	}
+
+/* ----------------SELETOR DE CLASSE ----------------*/
+	/*Seleciona um elemento cujo atributo class tem o valor 
+especificado depois do ponto  */
+	.verde{
+		color: green;
+	}
+	p.verde{
+		color:red;
+	} /*se tiver assim so vai ser aplicado no elemento */
+
+
+
+/*----------------SELETOR DE ID----------------*/
+	/* Seleciona um elemento cujo atributo id tem o valor 
+especificado após o símbolo de cerquilha ou jogo da velha */
+
+	#cabeçalho{
+		color: hotpink;
+	}
+
+
+/*----------------SELETOR DE FILHO----------------*/
+	/* Seleciona um elemento que é filho direto de outro */
+	/*LEITURA: selecionar um link de li, ou seja, o > quer dizer
+	filho de */
+	li>a{
+		color: darkred;
+		text-decoration: none;
+	}
+	li>span{
+		background: orange;
+		text-decoration: none;
+	}
+
+
+
+/*----------------SELETOR DE DESCENDENTE----------------*/
+	/* Seleciona um elemento que é descendente de outro elemento especificado (e 
+não apenas filho direto desse elemento) */
+	/*LEITURA: seleciona qualquer link que esteja dentro do 
+	paragrafo*/
+	p a{
+		color: purple;
+	}
+
+/*----------------SELETOR DE IRMÃO ADJACENTE----------------*/
+	/* Seleciona um elemento que é o irmão próximo de outro */
+	/*LEITURA: selecionar o primeiro elemento p 
+	que venha depois de h1*/
+	h1+p{
+		background: black;
+	}
+
+
+
+
+/*----------------SELETOR DE IRMÃO GERAL ----------------*/
+	/*Seleciona um elemento que é um irmão de outro, embora ele não precise ser o 
+elemento diretamente precedente */
+	/*todos os irmaos de h1 que sejam p serão alterados*/
+h1~p{
+
+}
