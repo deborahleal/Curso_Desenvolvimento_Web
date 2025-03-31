@@ -1,0 +1,14 @@
+body{
+
+	color: darkred;
+	border: 1px solid blueviolet;
+}
+
+/*border e background não são herdados*/
+
+/*especificidade*/
+ 
+ p{
+ 	color: blueviolet;
+ }
+
