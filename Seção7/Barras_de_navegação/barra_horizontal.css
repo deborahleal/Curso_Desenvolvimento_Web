@@ -1,0 +1,39 @@
+
+/*PARA CRIAR UMA BARRA HORIZONTAL USA-SE ELEMENTOS FLUTUANTES*/
+
+ul{ /*fazer as alterações so na ul que
+tem o id navegação */
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border: 2px solid red;
+	width: 720px;
+	float: left;
+	background: #159cb0 url(../Barras_de_navegação/imagens/fundo-horizontal.png) repeat-x ;
+
+}
+
+ul li{
+	float: left;
+	
+
+}
+
+ul a{
+	display: block;
+	padding: 0 2em;
+	line-height: 2em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../Barras_de_navegação/imagens/divisor.png) repeat-y left top;
+}
+
+ ul a:hover{
+	text-decoration: none;
+	color: red;
+	background: gray;
+}
+
+ul .primeiro a{
+	background: none;
+}
