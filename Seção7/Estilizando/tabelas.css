@@ -1,0 +1,39 @@
+body{
+	font-family: sans-serif;
+}
+
+
+table#tabela-afazeres  {
+	width: 600px;
+	border-collapse: separate;
+}
+
+th, td {
+	padding: 3px;
+}
+
+th{
+	text-transform: uppercase; /* pra deixar todas letras maiusculas*/
+	border-top: 1px solid deeppink;
+	border-bottom: 2px solid gray;
+	border-left: 1px solid deeppink;
+	border-right: 1px solid deeppink;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing:0.2em; /*espaçamento entre letras de uma palavra */
+	
+
+}
+
+tr.alternado{
+	background: #efefef;
+}
+
+.numero{
+	text-align: right;
+}
+
+
+tr:hover{
+	background-color: dimgray;
+}

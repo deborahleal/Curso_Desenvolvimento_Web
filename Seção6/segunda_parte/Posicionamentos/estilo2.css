@@ -1,0 +1,29 @@
+#conteiner {
+	background: deeppink;
+	width: 800px;
+	margin: 10px auto;
+	padding: 10px;
+	position: relative;
+}
+
+body{
+	background: #007fc7;
+}
+h2{
+	color: #fff;
+	position: static;
+}
+p{
+	position: static;
+	width: 400px;
+
+
+}
+
+.absolute {
+	position: absolute;
+	background: red;
+	border: 3px solid darkgray;
+	top: 80px;
+	right:20px;
+}

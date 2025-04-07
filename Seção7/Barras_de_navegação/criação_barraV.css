@@ -1,0 +1,41 @@
+/*ul {
+	
+	list-style-type: none; /*quem define que a lista é ordenada ou não
+	padding: 0px;
+	margin: 0px;
+}
+
+li{
+	padding:5px 20px;
+	background: url(../Barras_de_navegação/imagens/seta.png) no-repeat center left;
+}*/
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul a {
+	width: 200px;
+	color: #ooo;
+	text-decoration:none ;
+	text-indent: 20px;
+	line-height:40px ; /*altura da linha do texto */
+	height: 40px;
+	background:  #f7b600 url(../Barras_de_navegação/imagens/menu.png) left bottom;
+	display: block;
+
+}
+
+a:hover{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home .home a{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}

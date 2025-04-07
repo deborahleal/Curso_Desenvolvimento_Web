@@ -1,0 +1,36 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+fieldset{
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+	width: 50%;
+	margin: 1em 0;
+}
+
+legend{
+	font-weight: bold;
+
+}
+
+label{
+	display: block;
+	cursor: pointer; /* pra aparecer aquela mão*/
+
+}
+
+input[type="text"]{
+	width: 100%;
+}
+
+textarea{
+	width: 100%;
+	height: 100%;
+}
+
+input[type="radio"]{
+	width: auto;
+
+}

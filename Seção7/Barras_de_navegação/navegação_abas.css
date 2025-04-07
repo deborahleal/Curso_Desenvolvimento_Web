@@ -1,0 +1,41 @@
+/*a logica é usar um background no li e ouro background no a */
+
+
+body{
+	font-family: "Trebuchet MS",Helvetica, sans-serif;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width:;
+}
+
+ul li {
+	float: left;
+	background: url(../Barras_de_navegação/imagens/aba-direita.png) no-repeat top right;
+}
+
+li a{
+	display: block;
+	padding: 0 2em;
+	line-height: 3em;
+	text-decoration: none;
+	color: #fff;
+	background:url(../Barras_de_navegação/imagens/aba-esquerda.png) no-repeat top left;
+}
+
+ul a:hover{
+	background: orange;
+	color: darkred;
+}
+
+ul #atual{
+	background: url(../Barras_de_navegação/imagens/aba-direita-atual.png) no-repeat top left;
+}
+
+ul #atual a{
+	
+}
+

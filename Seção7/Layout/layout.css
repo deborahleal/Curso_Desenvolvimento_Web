@@ -1,0 +1,190 @@
+/* CSS DA PARTE DA BARRA FIXA
+body{
+	font-family: "Trebuchet MS",Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container{
+	width:900px;
+	margin: 0 auto;  quando se usa auto quer dizer que vai 
+					haver uma centralização do conteudo 
+	background: #fff;
+}
+
+#marca{
+	height: 150px;
+	background: deeppink;
+	text-align: center;
+	line-height: 100px;
+}
+
+
+#conteudo{
+	width:450px;
+	float: right;
+}
+
+#navegação{
+	width:400px;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: lightblue;
+}
+
+#rodape{
+	clear: both;
+	background: hotpink;
+	padding: 5px;
+
+
+}
+
+ul.navegação{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+ul.navegação li{
+	list-style-type: none;
+	
+}
+
+ul.navegação a{
+	text-decoration: none;
+	text-indent: 20px;
+	line-height:40px;
+	color: #000;
+	display: block;
+}
+
+ul.navegação a:hover{
+
+	background-position: right bottom;
+	background-color: rebeccapurple;
+	color: #fff;
+}
+
+ul#noticia{
+	padding: 0px;
+	margin: 0px;
+}
+
+ul#noticia{
+	list-style-type: none;
+}
+
+
+ul#noticia a{
+	text-decoration: none;
+	text-indent: 20px;
+	line-height:40px;
+	color: #000;
+	display: block;
+	font-size: 12px;
+}
+
+
+ul#noticia a:hover{
+	background-position: right bottom;
+	background-color: rebeccapurple;
+	color: #fff;
+}*/
+
+
+
+
+/*CSS DA PARTE FLUIDA - coloca tudo pra porcentagem */
+body{
+	font-family: "Trebuchet MS",Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container{
+	width:70%;
+	margin: 0 auto;  /*quando se usa auto quer dizer que vai 
+					haver uma centralização do conteudo*/ 
+	background: #fff;
+}
+
+#marca{
+	height: 150px;
+	background: deeppink;
+	text-align: center;
+	line-height: 100px;
+}
+
+
+#conteudo{
+	width:74.28%;
+	float: right;
+}
+
+#navegação{
+	width:25.71%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: lightblue;
+}
+
+#rodape{
+	clear: both;
+	background: hotpink;
+	padding: 5px;
+
+
+}
+
+ul.navegação{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+ul.navegação li{
+	list-style-type: none;
+	
+}
+
+ul.navegação a{
+	text-decoration: none;
+	text-indent: 20px;
+	line-height:40px;
+	color: #000;
+	display: block;
+}
+
+ul.navegação a:hover{
+
+	background-position: right bottom;
+	background-color: rebeccapurple;
+	color: #fff;
+}
+
+ul#noticia{
+	padding: 0px;
+	margin: 0px;
+}
+
+ul#noticia{
+	list-style-type: none;
+}
+
+
+ul#noticia a{
+	text-decoration: none;
+	text-indent: 20px;
+	line-height:40px;
+	color: #000;
+	display: block;
+	font-size: 12px;
+}
+
+
+ul#noticia a:hover{
+	background-position: right bottom;
+	background-color: rebeccapurple;
+	color: #fff;
+}

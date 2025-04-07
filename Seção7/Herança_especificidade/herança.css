@@ -1,0 +1,22 @@
+body{
+
+	color: darkred;
+	border: 1px solid blueviolet;
+}
+
+/*border e background não são herdados*/
+
+/*especificidade
+
+	- caso de dois seletores iguais, o ultimo que vai ser aplicado;
+		- mas se colocar !important ele é priorizado
+	- se um seletor for mais especifico que outro a regra 
+	mais especifica será aplicada
+	   	- * menos especifico que h2
+	- 
+*/
+ 
+ p{
+ 	color: blueviolet;
+ }
+
