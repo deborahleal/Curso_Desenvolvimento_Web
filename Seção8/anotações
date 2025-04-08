@@ -1,0 +1,26 @@
+ANIMAÇÃO:
+
+	/*animações em css é a possibilidade de voce ir de uma formatação para outra*/
+
+	/*Estruturação*/
+		/*@keyframes, pra identidificar qu eta usando animação, e um nome */
+
+		- @keyframes animação-caixa{
+			from{} -> formatação inicial
+
+			to{} -> formatação final
+		}
+
+
+
+
+TRANSIÇÕES:
+
+#caixa:hover{
+	width: 400px;
+	background:yellow;
+	-webkit-transition: width  tempo da transição, background tempo da transição;
+	-moz-transition: all tempo da transição;
+	-o-transition: ;
+	transition: ;
+}
