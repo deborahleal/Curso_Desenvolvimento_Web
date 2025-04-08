@@ -1,0 +1,51 @@
+#conteudo{
+	background: #dcdcdc;
+	height: 600px;
+	
+	display: flex;
+
+	/*row,row-reverse,column,column-reverse*/
+	flex-direction: row;
+
+
+	/*nowrap,wrap,wrap-reverse*/
+	flex-wrap: wrap;
+
+	/*flex-start,flex-end,center,space-between,space-around*/
+	justify-content: space-around;
+
+	/*stretch,center,flex-start,flex-end,baseline*/
+	align-items: flex-start;
+}
+.item{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	background: white;
+	border: 1px solid red;
+	flex-basis: auto; /*indica o tamanho inicial do flex item antes 
+						da distribuição do espaço restante,dependendo do flex-direction
+						se for row é widht se for*/
+	flex-grow:0; /*define a proporção de espaço que um item ocupa- crescendo*/
+	flex-shrink:1; /*define a proporção de espaço que um item ocupa-reduzindo*/
+	
+}
+.item1{
+	flex-grow: 2;
+}
+
+.ordem1{
+	order: 1;
+}
+
+.ordem2{
+	order: 2;
+}
+
+.ordem3{
+	order: 3;
+}
+
+.ordem4{
+	order: 4;
+}
