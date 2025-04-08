@@ -1,0 +1,39 @@
+body{
+	height: 200px;
+}
+header{
+	border: 1px solid red;
+	background: wheat;
+	padding: 10px;
+}
+
+nav{
+	border: 1px solid greenyellow;
+	background: darkgray;
+	padding: 10px;
+}
+
+footer{
+	border: 1px solid hotpink;
+	background: plum;
+	padding: 20px;
+	float: left;
+}
+
+article{
+	border: 1px solid red;
+	background: brown;
+	padding: 10px;
+	float: left;
+}
+
+section{
+	border: 2px dotted hotpink;
+	background: white;
+	margin: 0px;
+}
+aside{
+	background: red;
+	float: right;
+	padding: 100px;
+}
